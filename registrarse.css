@@ -1,0 +1,68 @@
+.form-h1{
+    color: white;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.div-register{
+    text-align: center;
+    /*
+    background-color: #FE7373;
+    */
+    background: rgb(253, 83, 83, 0.50);
+    margin: 60px 450px;     
+    padding: 20px;
+    border-radius: 10px ;
+    backdrop-filter: blur(5px);
+}
+.div-form{
+    text-align: left;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-input{
+    /*Border, Outline: none -> para quitar el borde por defecto primero*/
+    border: none;
+    outline: none;
+    margin: 5px;
+    padding: 10px;
+    background: rgb(253, 83, 83, 0.50);
+    color: white;
+    border-bottom: 2px solid white;
+    font-size: 17px;
+    transition: 0.5s;
+}
+.form-input:focus{
+    background-color: #f85151;
+}
+.form-btn{
+    border: none;
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: white;
+    color: #f85151;
+    font-family:'Maven Pro', sans-serif;
+    font-size: 20px;
+    transition: 0.2s;
+}
+.form-btn:hover{
+    background-color: #ee7272;
+    color: white;
+}
+
+.div-a{
+    text-decoration: none;
+    color: white;
+}
+.div-a:hover{
+    text-decoration: underline;
+}
+.div-contaner{
+    color: white;
+}
+
+body{
+    
+}
