@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+}
+.header-navegador{
+    text-align: center;
+    position: sticky;
+    background-color: #036295 ;
+    color: white;
+    padding: 25px;
+    padding-bottom: 55px;
+    font-size: 25px;
+}
+.img-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-top: -8px;
+}
+
+.nav-a:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: #012b42;
+}
+
+.nav-a{
+    padding: 10px; 
+    text-decoration: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.5s;
+    padding-top: -60px;
+}   
+.nav-versitio{
+    float: right;
+}
+body{
+    font-family:'Maven Pro', sans-serif;
+}
+
+footer{
+    text-align: center; 
+    padding: 10px 0px;
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 0;
+    display: table;
+    bottom: 0;  
+    width: 100%;
+}
+
+
+.footer-img{
+    margin: 5px 5px;
+}
