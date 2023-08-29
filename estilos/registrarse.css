@@ -34,6 +34,7 @@
     font-size: 17px;
     transition: 0.5s;
 }
+
 .form-input:focus{
     background-color: rgba(0, 45, 71, 0.50);
 }
