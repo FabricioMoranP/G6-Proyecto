@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>CR7</title>
 </head>
 
 <body>
@@ -16,14 +16,14 @@
         <header>    
             <nav class="nav">
                 <div class="logo">
-                    <a href="Index.html"><img class="img-logo" src="imagenes/empresalogo.jpg" alt="logo de la marca"></a>
+                    <a href="Index.php"><img class="img-logo" src="imagenes/empresalogo.jpg" alt="logo de la marca"></a>
                 </div>
-                <a class="nav-a" href="Index.html">Inicio</a>
-                <a class="nav-a" href="Nosotros.html">Nosotros</a>
-                <a class="nav-a" href="Contactenos.html">Contactenos</a>
+                <a class="nav-a" href="Index.php">Inicio</a>
+                <a class="nav-a" href="Nosotros.php">Nosotros</a>
+                <a class="nav-a" href="Contactenos.php">Contactenos</a>
                 <a class="nav-a" href="crudclientes.php">Clientes (CRUD)</a>
                 <div class="nav-iniciarsesion">
-                    <a class="nav-a" href="IniciarSesion.html">Iniciar Sesion</a>
+                    <a class="nav-a" href="IniciarSesion.php">Iniciar Sesion</a>
                 </div>
             </nav>
         </header>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagenes/capoo.ico">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" type="text/css" href="registrarse.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header-navegador">
+        <header>    
+            <nav class="nav">
+                <div class="logo">
+                    <a href="Index.php"><img class="img-logo" src="imagenes/empresalogo.jpg" alt="logo de la marca"></a>
+                </div>
+                <a class="nav-a" href="Index.php">Inicio</a>
+                <a class="nav-a" href="Nosotros.php">Nosotros</a>
+                <a class="nav-a" href="Contactenos.php">Contactenos</a>
+                <a class="nav-a" href="crudclientes.php">Clientes (CRUD)</a>
+            </nav>
+        </header>
+    </div>
+
+    <div class="div-register">
+        <h1 class="form-h1">Registrarse</h1>
+        <form class="div-form" action="post">
+            <input class="form-input" type="text" placeholder="Ingresar Nombres" name="txtnombres">
+            <input class="form-input" type="text" placeholder="Ingresar Apellidos" name="txtapellidos">
+            <input class="form-input" type="email" placeholder="Ingresar Correo" name="txtcorreo">
+            <input class="form-input" type="password" placeholder="Ingresar Contraseña" name="txtpass"><br>
+            <input class="form-btn" type="submit" value="Registrarte">
+        </form>
+        <div class="div-contaner">
+        ¿Ya tienes cuenta? <a class="div-a"href="iniciarsesion.php">Inicia sesión</a>
+        </div>
+    </div> 
+    <div>
+        <footer class="footer">
+            <h4>Copyright - Todos los derechos reservados</h4>
+            <p>Siguenos en nuestras redes sociales</p>
+            <div class="footer-redes">
+                <a href="https://facebook.com"><img class="footer-img" src="imagenes/facebook.png" alt=""></a>
+                <a href="https://Twitter.com"><img class="footer-img" src="imagenes/gorjeo.png" alt=""></a>
+                <a href="https://Instagram.com"><img class="footer-img" src="imagenes/instagram.png" alt=""></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
