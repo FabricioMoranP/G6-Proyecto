@@ -1,32 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="imagenes/capoo.ico">
-    <link rel="stylesheet" type="text/css" href="estilos.css">
-    <link rel="stylesheet" type="text/css" href="registrarse.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
-    <title>Document</title>
-</head>
-<body>
-    <div class="header-navegador">
-        <header>    
-            <nav class="nav">
-                <div class="logo">
-                    <a href="Index.php"><img class="img-logo" src="imagenes/empresalogo.jpg" alt="logo de la marca"></a>
-                </div>
-                <a class="nav-a" href="Index.php">Inicio</a>
-                <a class="nav-a" href="Registrarse.php">Registrarse</a>
-                <a class="nav-a" href="Nosotros.php">Nosotros</a>
-                <a class="nav-a" href="Formularios.php">Formularios</a>
-                <a class="nav-a" href="crudclientes.php">Clientes (CRUD)</a>
-                
-            </nav>
-        </header>
-    </div>
+<?php include("template/cabecera-login.php")?>
     <div class="div-register">
         <h1 class="form-h1">Iniciar Sesion</h1>
         <form class="div-form" action="post">
