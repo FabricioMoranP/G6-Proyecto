@@ -12,7 +12,7 @@ include("config/bd.php");
 
 switch($accion){
     case "Agregar":
-        $sentenciaSQL=$conexion->prepare("INSERT INTO clientes (id, nombres, apellidos, correo, contraseña) VALUES (:id, :nombres, :apellidos, :correo, :contraseña);");
+        $sentenciaSQL=$conexion->prepare("INSERT INTO `clientes` (id, nombres, apellidos, correo, contraseña) VALUES (:id, :nombres, :apellidos, :correo, :contraseña);");
         $sentenciaSQL->bindParam(':id',$txtid);
         $sentenciaSQL->bindParam(':nombres',$txtnombres);
         $sentenciaSQL->bindParam(':apellidos',$txtapellidos);
@@ -30,7 +30,23 @@ switch($accion){
     case "Cancelar":
         echo "Presionando el boton Cancelar";
         break;
-};
+
+    case "Seleccionar":
+        
+        // echo "Presionando el boton Seleccionar";
+        break;
+
+    case "Borrar":
+        $sentenciaSQL=$conexion->prepare("DELETE FROM clientes WHERE id=:id");
+        $sentenciaSQL->bindParam(':id',$txtid);
+        $sentenciaSQL->execute();
+        // echo "Presionando el boton Borrar";
+        break;
+}
+
+$sentenciaSQL=$conexion->prepare("SELECT * FROM clientes");
+$sentenciaSQL->execute();
+$listaClientes=$sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
 ?>
         <div>
             Datos del cliente<br>
@@ -67,14 +83,27 @@ switch($accion){
                     </tr>
                 </thead>
                 <tbody>
+                    <?php foreach($listaClientes as $cliente){ ?>
                     <tr>
-                        <td>1</td>
-                        <td>fabricio</td>
-                        <td>moran</td>
-                        <td>fabriciofto@gmail.com</td>
-                        <td>fabricio0123</td>
-                        <td>Seleccionar | Borrar</td>
+                        <td><?php echo $cliente['id']?></td>
+                        <td><?php echo $cliente['nombres']?></td>
+                        <td><?php echo $cliente['apellidos']?></td>
+                        <td><?php echo $cliente['correo']?></td>
+                        <td><?php echo $cliente['contraseña']?></td>
+                        <td>
+
+                        Seleccionar | Borrar
+                        <form method="post">
+
+                            <input type="hidden" name="txtid" id="txtid" value="<?php echo $cliente['id']?>"/>
+                            <input type="submit" name="accion" value="Seleccionar"/>
+                            <input type="submit" name="accion" value="Borrar"/>
+                            
+                        </form>
+                    
+                        </td>
                     </tr>
+                    <?php } ?> 
                 </tbody>
             </table>
         </div>
