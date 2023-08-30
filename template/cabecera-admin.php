@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="imagenes/capoo.ico">
+    <link rel="icon" href="imagenes/empresalogo.jpg">
     <link rel="stylesheet" type="text/css" href="estilos/estilos.css">
     <link rel="stylesheet" type="text/css" href="estilos/registrarse.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
