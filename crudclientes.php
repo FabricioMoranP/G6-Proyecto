@@ -53,14 +53,19 @@ $listaClientes=$sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
             <form method="POST" enctype="multipart/form-data">
                 <label for="txtid">ID:</label>
                 <input type="text" name="txtid" id="txtid" placeholder="Ingresar ID">
+
                 <label for="txtnombres">Nombres:</label>
                 <input type="text" name="txtnombres" id="txtnombres" placeholder="Ingresar Nombres">
+
                 <label for="txtapellidos">Apellidos:</label>
                 <input type="text" name="txtapellidos" id="txtapellidos" placeholder="Ingresar apellidos">
+
                 <label for="txtcorreo">Correo:</label>
                 <input type="text" name="txtcorreo" id="txtcorreo" placeholder="Ingresar correo">
+
                 <label for="txtpass">Contraseña:</label>
                 <input type="password" name="txtpass" id="txtpass" placeholder="Ingresar contraseña">
+                
                 <div>
                     <button type="submit" name="accion" value="Agregar" class="btn-form">Agregar</button>
                     <button type="submit" name="accion" value="Modificar" class="btn-form">Modificar</button>
