@@ -1,15 +1,13 @@
 <?php 
 
 session_start();
-if(!isset($_SESSION['usuario'])){
-    header("Location: clientes.php");
-}else{
-    if($_SESSION['usuario'=="ok"]){
-        $nombreUsuario=$_SESSION["nombreUsuario"];
-    }
+include('config/bd.php');
+$usuario = $_SESSION['usuario'];
+if (!isset($usuario)) {
+    header("location:clientes.php");
 }
-
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,7 +32,7 @@ if(!isset($_SESSION['usuario'])){
                         <a href="<?php echo $url;?>"><img class="img-logo" src="imagenes/empresalogo.jpg" alt="logo de la marca"></a>
                     </div>
                     <div class="nav-versitio">
-                        <a class="nav-a" href="<?php echo $url;?>">Ver Sitio</a>
+                        <a class="nav-a" href="cerrar.php">Cerrar</a>
                     </div>
                 </nav>
             </header>

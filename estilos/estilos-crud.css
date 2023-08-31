@@ -40,24 +40,37 @@ body{
 }
 
 .contaner-2{
-    width: 100%;
+    display: flex;
 }
 .contaner-form{
-    padding-left: 100px;
+    margin-top: 20px;
+    width: 50%;
+    height: 300px;
     background-color: #012b42;
+    color: white;
+}
+
+.form{
+    padding-top: 50px;
+    padding-left: 200px;
 }
 
 .contaner-crud{
+    margin-top: 20px;
     background-color: #036295;
     padding-top: 10px;
     padding-left: 10px;
     margin-left: 10px;
-    position: relative;
     float: left;
-    width: 45%;
+    width: 50%;
     height: auto;
+    color: white;
 }
-
+.btn-crud{
+    width: 100%;
+    height: 40px;
+    margin: 2px 0px;
+}
 
 footer{
     text-align: center; 
