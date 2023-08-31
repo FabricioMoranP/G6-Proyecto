@@ -1,0 +1,43 @@
+.contaner-nosotros{
+    margin: 0px 150px;
+    background-color: white;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+}
+.imgnosotros{   
+    padding-left: 150px;
+    width: 1049px;
+    height: 300px;
+    margin-bottom: -3px;
+}
+
+.h1-nst{
+    font-size: 30px;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: normal;
+    font-family: Arial;
+    background-color: #036295;
+    margin: 0px -20px;
+}
+
+.h2-nst{
+    margin: 10px;
+    color: #443963;
+    font-weight: normal;
+    font-size: 30px;
+    font-family: Arial;
+    text-transform: lowercase;
+    width: min-content;
+    border-bottom: 5px solid #443963;
+}
+
+.h3-nst{
+    padding: 10px;
+    color: #443963;
+    font-weight: normal;
+    font-size: 30px;
+    font-family: Arial;
+    text-transform: lowercase;
+}
