@@ -1,3 +1,15 @@
+<?php 
+
+session_start();
+if(!isset($_SESSION['usuario'])){
+    header("Location: clientes.php");
+}else{
+    if($_SESSION['usuario'=="ok"]){
+        $nombreUsuario=$_SESSION["nombreUsuario"];
+    }
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
-    <title>CR7</title>
+    <title>Document</title>
 </head>
 
 <body>
