@@ -22,7 +22,7 @@
                 </div>
                 <a class="nav-a" href="Index.php">Inicio</a>
                 <a class="nav-a" href="Nosotros.php">Nosotros</a>
-                <!-- <a class="nav-a" href="Contactenos.php">Contactenos</a> -->
+                <a class="nav-a" href="Contactenos.php">Contactenos</a>
                 <a class="nav-a" href="clientes.php">Clientes (CRUD)</a>
                 <div class="nav-iniciarsesion">
                     <a class="nav-a" href="IniciarSesion.php">Iniciar Sesion</a>

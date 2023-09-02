@@ -1,13 +1,24 @@
 *{
     margin: 0px;
 }
-.header-navegador{
-    text-align: center;
-    position: sticky;
-    background-color: #036295 ;
-    color: white;
-    padding: 25px;
-    font-size: 25px;
+ .header-navegador{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  background-color: #036295 ;
+  color: white;
+  padding: 25px 0px;
+  font-size: 25px;
+  width: 100%;
 }
 .img-logo {
     width: 50px;
@@ -25,7 +36,7 @@
 }
 
 .nav-a{
-    padding: 10px; 
+    padding: 10px;  
     text-decoration: none;
     color: white;
     border-radius: 25px;
@@ -249,18 +260,16 @@ body{
   
 footer{
     text-align: center; 
-    padding: 10px 0px;
     background-color: black;
     color: white;
-    position: relative;
-    left: 0;
-    display: table;
-    bottom: 0;  
+    position: absolute;
     width: 100%;
-}
-.footer-redes{
-    /*float: right;
-*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1000;
+    padding: 15px 0px;
 }
 
 .footer-img{

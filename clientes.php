@@ -44,5 +44,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <a class="div-a" href="">Recuperar Contraseña</a>
     </div>
 </div>
-
-<?php include("template/pie.php")?>
