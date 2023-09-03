@@ -74,19 +74,19 @@ $listaClientes=$sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
                 <h1>Datos del cliente</h1>
                 <form class="form" method="POST" enctype="multipart/form-data">
                     <label for="txtid">ID:</label>
-                    <input type="text" required value="<?php echo $txtid?>" name="txtid" id="txtid" placeholder="Ingresar ID">
+                    <input type="text" required value="<?php echo $txtid?>" name="txtid" id="txtid" placeholder="Ingresar ID"><br>
 
                     <label for="txtnombres">Nombres:</label>
-                    <input type="text" required value="<?php echo $txtnombres?>" name="txtnombres" id="txtnombres" placeholder="Ingresar Nombres">
+                    <input type="text" required value="<?php echo $txtnombres?>" name="txtnombres" id="txtnombres" placeholder="Ingresar Nombres"><br>
 
                     <label for="txtapellidos">Apellidos:</label>
-                    <input type="text" required value="<?php echo $txtapellidos?>" name="txtapellidos" id="txtapellidos" placeholder="Ingresar apellidos">
+                    <input type="text" required value="<?php echo $txtapellidos?>" name="txtapellidos" id="txtapellidos" placeholder="Ingresar apellidos"><br>
 
                     <label for="txtcorreo">Correo:</label>
-                    <input type="text" required value="<?php echo $txtcorreo?>" name="txtcorreo" id="txtcorreo" placeholder="Ingresar correo">
+                    <input type="text" required value="<?php echo $txtcorreo?>" name="txtcorreo" id="txtcorreo" placeholder="Ingresar correo"><br>
 
                     <label for="txtpass">Contraseña:</label>
-                    <input type="password" required value="<?php echo $txtpass?>" name="txtpass" id="txtpass" placeholder="Ingresar contraseña">
+                    <input type="password" required value="<?php echo $txtpass?>" name="txtpass" id="txtpass" placeholder="Ingresar contraseña"><br>
                     
                     <div>
                         <button class="btn-form" type="submit" name="accion" <?php echo ($accion == "Seleccionar")?"disable":""; ?> value="Agregar" class="btn-form">Agregar</button>
@@ -124,8 +124,8 @@ $listaClientes=$sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
                             <form method="post">
 
                                 <input type="hidden" name="txtid" id="txtid" value="<?php echo $cliente['id']?>"/>
-                                <input type="submit" name="accion" value="Seleccionar"/>
-                                <input type="submit" name="accion" value="Borrar"/>
+                                <input class="btn-crud" type="submit" name="accion" value="Seleccionar"/>
+                                <input class="btn-crud" type="submit" name="accion" value="Borrar"/>
                                 
                             </form>
                         

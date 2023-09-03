@@ -14,7 +14,7 @@
 
 
 
-    <div>
+    <!-- <div>
         <footer class="footer">
             <h4>Copyright - Todos los derechos reservados</h4>
             <p>Siguenos en nuestras redes sociales</p>
@@ -24,7 +24,7 @@
                 <a href="https://Instagram.com"><img class="footer-img" src="imagenes/instagram.png" alt=""></a>
             </div>
         </footer>
-    </div>
+    </div> -->
     
 </body>
 </html>

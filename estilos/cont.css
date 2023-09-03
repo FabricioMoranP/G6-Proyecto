@@ -1,0 +1,53 @@
+.contaner-cont{
+    /* margin-left: 165px;
+    width: 960px;
+    height: 500px;
+    background-color: white; */
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 111, 175, 0.50);
+    margin: 60px 120px;
+    padding: 20px;
+    border-radius: 10px ;
+    backdrop-filter: blur(5px);
+    color: white;
+    font-size: 20px;
+}
+.btn-cont{
+    border: none;
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: white;
+    color: rgba(0, 111, 175, 0.50);
+    font-weight: bold;
+    font-family:'Maven Pro', sans-serif;
+    font-size: 20px;
+    transition: 0.2s;  
+    border-radius: 10px;
+}
+
+.btn-cont:hover{
+    background-color: rgba(0, 65, 102, 0.5);
+    color: white;
+}
+.form-group{
+    margin: 10px 0px;
+}
+
+.form-control{
+border: none;
+outline: none;
+background-color: transparent;
+border-bottom: 2px solid white;
+color: white;
+resize: none;
+font-size: 20px ;
+}
+.form-control:focus{
+   background-color: rgba(0, 45, 71, 0.50);
+}
+.form-control::placeholder{
+    color: white;
+}
+
