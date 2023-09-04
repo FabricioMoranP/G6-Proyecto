@@ -69,24 +69,25 @@ $sentenciaSQL=$conexion->prepare("SELECT * FROM clientes");
 $sentenciaSQL->execute();
 $listaClientes=$sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
 ?>
+<section>
         <div class="contaner-2">
             <div class="contaner-form">
-                <h1>Datos del cliente</h1>
+                <h1 class="titles">Datos del cliente</h1>
                 <form class="form" method="POST" enctype="multipart/form-data">
-                    <label for="txtid">ID:</label>
-                    <input type="text" required value="<?php echo $txtid?>" name="txtid" id="txtid" placeholder="Ingresar ID"><br>
+                    <label class="label-form" for="txtid">ID:</label>
+                    <input class="input-form" type="text" required value="<?php echo $txtid?>" name="txtid" id="txtid" placeholder="Ingresar ID"><br>
 
-                    <label for="txtnombres">Nombres:</label>
-                    <input type="text" required value="<?php echo $txtnombres?>" name="txtnombres" id="txtnombres" placeholder="Ingresar Nombres"><br>
+                    <label class="label-form" for="txtnombres">Nombres:</label>
+                    <input class="input-form" type="text" required value="<?php echo $txtnombres?>" name="txtnombres" id="txtnombres" placeholder="Ingresar Nombres"><br>
 
-                    <label for="txtapellidos">Apellidos:</label>
-                    <input type="text" required value="<?php echo $txtapellidos?>" name="txtapellidos" id="txtapellidos" placeholder="Ingresar apellidos"><br>
+                    <label class="label-form" for="txtapellidos">Apellidos:</label>
+                    <input class="input-form" type="text" required value="<?php echo $txtapellidos?>" name="txtapellidos" id="txtapellidos" placeholder="Ingresar apellidos"><br>
 
-                    <label for="txtcorreo">Correo:</label>
-                    <input type="text" required value="<?php echo $txtcorreo?>" name="txtcorreo" id="txtcorreo" placeholder="Ingresar correo"><br>
+                    <label class="label-form" for="txtcorreo">Correo:</label>
+                    <input class="input-form" type="text" required value="<?php echo $txtcorreo?>" name="txtcorreo" id="txtcorreo" placeholder="Ingresar correo"><br>
 
-                    <label for="txtpass">Contraseña:</label>
-                    <input type="password" required value="<?php echo $txtpass?>" name="txtpass" id="txtpass" placeholder="Ingresar contraseña"><br>
+                    <label class="label-form" for="txtpass">Contraseña:</label>
+                    <input class="input-form" type="password" required value="<?php echo $txtpass?>" name="txtpass" id="txtpass" placeholder="Ingresar contraseña"><br>
                     
                     <div>
                         <button class="btn-form" type="submit" name="accion" <?php echo ($accion == "Seleccionar")?"disable":""; ?> value="Agregar" class="btn-form">Agregar</button>
@@ -99,7 +100,7 @@ $listaClientes=$sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
             </div>
 
             <div class="contaner-crud">
-                <h1>Tabla de Clientes</h1>
+                <h1 class="titles">Tabla de Clientes</h1>
                 <table class="table">
                     <thead>
                         <tr>
@@ -124,8 +125,8 @@ $listaClientes=$sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
                             <form method="post">
 
                                 <input type="hidden" name="txtid" id="txtid" value="<?php echo $cliente['id']?>"/>
-                                <input class="btn-crud" type="submit" name="accion" value="Seleccionar"/>
-                                <input class="btn-crud" type="submit" name="accion" value="Borrar"/>
+                                <input class="btn-crud" type="submit" name="accion" id="seleccionar" value="Seleccionar"/>
+                                <input class="btn-crud" type="submit" name="accion" id= "borrar" value="Borrar"/>
                                 
                             </form>
                         
@@ -137,6 +138,6 @@ $listaClientes=$sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
             </div>
         </div>
     </div> 
-    
+</section>
 </body>
 </html>

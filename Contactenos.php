@@ -32,26 +32,32 @@ if($accion){
         <section>
                 <!-- Aquí pon las col-x necesarias, comienza tu contenido, etcétera -->
                 <div class="contaner-cont">
-                    <h1 class="h1-cont">Gracias por contactarme</h1>
-                    <form class="form-cont" method="POST">
-                        <div class="form-group">
-                            <label class="label-form" for="nombre">Nombre:</label><br>
-                            <input name="nombre" required type="text" id="nombre"
-                                class="form-control" >
-                        </div>
-                        <div class="form-group">
-                            <label class="label-form" for="correo">Correo electrónico:</label><br>
-                            <input name="email" required type="email" id="correo"
-                                class="form-control" >
-                        </div>
-                        <div class="form-group">
-                            <label class="label-form">Dejanos tu mensaje:</label><br>
-                            <textarea required  class="form-control" class="form-txtarea" name="mensaje" id="mensaje"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <button class="btn-cont" type="submit" name="accion" value="Enviar">Enviar</button>
-                        </div>
-                    </form>
+                        <form class="form-cont" method="POST">
+                            <!-- <h1 class="h1-cont">Gracias por contactarme</h1> -->
+                            <div class="form-group">
+                                <label class="label-form" for="nombre">Nombre:</label><br>
+                                <input name="nombre" required type="text" id="nombre"
+                                    class="form-control" >
+                            </div>
+                            <div class="form-group">
+                                <label class="label-form" for="correo">Correo electrónico:</label><br>
+                                <input name="email" required type="email" id="correo"
+                                    class="form-control" >
+                            </div>
+                            <div class="form-group">
+                                <label class="label-form" for="correo">Asunto:</label><br>
+                                <input name="asunto" required type="text" id="asunto"
+                                    class="form-control" >
+                            </div>
+                            <div class="form-group">
+                                <label class="label-form">Dejanos tu mensaje:</label><br>
+                                <textarea required  class="form-control" class="form-txtarea" name="mensaje" id="mensaje"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn-cont" type="submit" name="accion" value="Enviar">Enviar</button>
+                            </div>
+                        </form>
+                        <img class="img-contactanos" src="imagenes/contactanos.png" alt="contactanos">
                     <?php if (!empty($mensaje)) { ?>
                         <strong>
                             <?php echo $mensaje; ?>
