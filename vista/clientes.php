@@ -1,8 +1,8 @@
 
-<?php include("template/cabecera-admin.php")?>
+<?php include("../template/cabecera-admin.php")?>
 
 <?php
-include("config/bd.php");
+include("../modelo/bd.php");
 session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

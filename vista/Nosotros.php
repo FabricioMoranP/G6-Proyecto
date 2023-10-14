@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="imagenes/empresalogo.jpg">
-    <link rel="stylesheet" type="text/css" href="estilos/estilos.css">
-    <link rel="stylesheet" type="text/css" href="estilos/estilos-nosotros.css">
+    <link rel="stylesheet" type="text/css" href="../estilos/estilos.css">
+    <link rel="stylesheet" type="text/css" href="../estilos/estilos-nosotros.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
         <header>    
             <nav class="nav">
                 <div class="logo">
-                    <a href="Index.php"><img class="img-logo" src="imagenes/empresalogo.jpg" alt="logo de la marca"></a>
+                    <a href="Index.php"><img class="img-logo" src="../imagenes/empresalogo.jpg" alt="logo de la marca"></a>
                 </div>
                 <a class="nav-a" href="Index.php">Inicio</a>
                 <a class="nav-a" href="Nosotros.php">Nosotros</a>
@@ -33,7 +33,7 @@
     </header>
 
     <div>
-        <img class="imgnosotros" src="imagenes/nosotros.jpg" alt="">
+        <img class="imgnosotros" src="../imagenes/nosotros.jpg" alt="">
     </div>
     <div class="contaner-nosotros">
         <div>
@@ -76,9 +76,9 @@
                 <h4>Copyright - Todos los derechos reservados</h4>
                 <p>Siguenos en nuestras redes sociales</p>
                 <div class="footer-redes">
-                    <a href="https://facebook.com"><img class="footer-img" src="imagenes/facebook.png" alt=""></a>
-                    <a href="https://Twitter.com"><img class="footer-img" src="imagenes/gorjeo.png" alt=""></a>
-                    <a href="https://Instagram.com"><img class="footer-img" src="imagenes/instagram.png" alt=""></a>
+                    <a href="https://facebook.com"><img class="footer-img" src="../imagenes/facebook.png" alt=""></a>
+                    <a href="https://Twitter.com"><img class="footer-img" src="../imagenes/gorjeo.png" alt=""></a>
+                    <a href="https://Instagram.com"><img class="footer-img" src="../imagenes/instagram.png" alt=""></a>
                 </div>
             </footer>
         </div>

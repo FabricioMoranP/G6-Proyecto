@@ -1,4 +1,4 @@
-<?php include("template/cabecera-login.php")?>
+<?php include("../template/cabecera-login.php")?>
     <div class="div-register">
         <h1 class="form-h1">Iniciar Sesion</h1>
         <form class="div-form" action="post">

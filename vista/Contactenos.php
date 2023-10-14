@@ -1,4 +1,4 @@
-<?php include("template/cabecera.php");
+<?php include("../template/cabecera.php");
 
 $accion=(isset($_POST['accion']))?$_POST['accion']:"";
 
@@ -57,7 +57,7 @@ if($accion){
                                 <button class="btn-cont" type="submit" name="accion" value="Enviar">Enviar</button>
                             </div>
                         </form>
-                        <img class="img-contactanos" src="imagenes/contactanos.png" alt="contactanos">
+                        <img class="img-contactanos" src="../imagenes/contactanos.png" alt="contactanos">
                     <?php if (!empty($mensaje)) { ?>
                         <strong>
                             <?php echo $mensaje; ?>
@@ -65,4 +65,4 @@ if($accion){
                     <?php } ?>
                 </div>
         </section>
-<?php include("template/pie.php")?>
+<?php include("../template/pie.php")?>

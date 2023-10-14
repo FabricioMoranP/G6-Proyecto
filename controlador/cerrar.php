@@ -2,5 +2,5 @@
 session_start();
 session_unset();
 session_destroy();
-header("location:clientes.php");
+header("location:../vista/clientes.php");
 ?>

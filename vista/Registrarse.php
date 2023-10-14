@@ -1,4 +1,4 @@
-<?php include("template/cabecera-login.php")?>
+<?php include("../template/cabecera-login.php")?>
 
 <section class="register">
     <div class="div-register">
