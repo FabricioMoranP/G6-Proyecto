@@ -1,9 +1,9 @@
-<?php include("template/cabecera.php");?>
+<?php include("../template/cabecera.php");?>
 <div class="titulo-python">
     <div class="contenido">
         <a href="index.php" class="volver-btn">Volver</a> 
         <div class="imagen-python-container">
-            <img src="imagenes\java.png" alt="" class="imagen-python" width="430">
+            <img src="../imagenes\java.png" alt="" class="imagen-python" width="430">
         </div>
 
         <h1>El lenguaje de programación Java: ¿Qué es?</h1>
@@ -16,7 +16,7 @@
      Java se utiliza en una amplia variedad de aplicaciones y contextos en la industria del software. Algunos de los principales casos de uso incluyen:
      </p>
 
-     <img src="imagenes\para.png" alt="" class="imagen-para" width="430">
+     <img src="../imagenes\para.png" alt="" class="imagen-para" width="430">
     
     
      <p>
@@ -47,4 +47,4 @@ La versatilidad y portabilidad de Java lo hacen adecuado para una amplia gama de
         </a>
     </div>
 </div>
-<?php include("template/pie.php");?>
+<?php include("../template/pie.php");?>

@@ -1,9 +1,9 @@
-<?php include("template/cabecera.php");?>
+<?php include("../template/cabecera.php");?>
 <div class="titulo-python">
     <div class="contenido">
         <a href="index.php" class="volver-btn">Volver</a> 
         <div class="imagen-python-container">
-            <img src="imagenes\python.png" alt="" class="imagen-python" width="430">
+            <img src="../imagenes/python.png" alt="" class="imagen-python" width="430">
         </div>
 
         <h1>El lenguaje de programación Python: ¿Qué es?</h1>
@@ -16,7 +16,7 @@
      
      </p>
 
-     <img src="imagenes\para.png" alt="" class="imagen-para" width="430">
+     <img src="../imagenes\para.png" alt="" class="imagen-para" width="430">
     
     
      <p>
@@ -53,4 +53,4 @@
 
 
 
-<?php include("template/pie.php");?>
+<?php include("../template/pie.php");?>

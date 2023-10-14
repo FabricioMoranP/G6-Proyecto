@@ -1,9 +1,9 @@
-<?php include("template/cabecera.php");?>
+<?php include("../template/cabecera.php");?>
 <div class="titulo-python">
     <div class="contenido">
         <a href="index.php" class="volver-btn">Volver</a> 
         <div class="imagen-python-container">
-            <img src="imagenes\js.png" alt="" class="imagen-python" width="430">
+            <img src="../imagenes\js.png" alt="" class="imagen-python" width="430">
         </div>
 
         <h1>El lenguaje de programación JavaScript: ¿Qué es?</h1>
@@ -17,7 +17,7 @@
      
      </p>
 
-     <img src="imagenes\para.png" alt="" class="imagen-para" width="430">
+     <img src="../imagenes\para.png" alt="" class="imagen-para" width="430">
     
     
      <p>
@@ -49,4 +49,4 @@ En resumen, JavaScript es esencial para hacer que las páginas web sean interact
         </a>
     </div>
 </div>
-<?php include("template/pie.php");?>
+<?php include("../template/pie.php");?>

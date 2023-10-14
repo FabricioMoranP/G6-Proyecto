@@ -1,9 +1,9 @@
-<?php include("template/cabecera.php");?>
+<?php include("../template/cabecera.php");?>
 <div class="titulo-python">
     <div class="contenido">
         <a href="index.php" class="volver-btn">Volver</a> 
         <div class="imagen-python-container">
-            <img src="imagenes\css.png" alt="" class="imagen-python" width="430">
+            <img src="../imagenes\css.png" alt="" class="imagen-python" width="430">
         </div>
 
         <h1>El lenguaje de diseño CSS: ¿Qué es?</h1>
@@ -16,7 +16,7 @@ Con CSS, puedes aplicar reglas y estilos a diferentes elementos de una página w
      <p>
      CSS se utiliza para definir y controlar la apariencia visual y el diseño de elementos en una página web. Algunos de los usos principales de CSS incluyen:      </p>
 
-     <img src="imagenes\para.png" alt="" class="imagen-para" width="430">
+     <img src="../imagenes/para.png" alt="" class="imagen-para" width="430">
     
     
      <p>
@@ -55,4 +55,4 @@ En resumen, CSS es esencial para crear páginas web visualmente atractivas, resp
         </a>
     </div>
 </div>
-<?php include("template/pie.php");?>
+<?php include("../template/pie.php");?>
